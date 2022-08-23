@@ -1,0 +1,45 @@
+//Colors
+$black: #262626;
+$white: rgb(227, 230, 232);
+$red: rgb(208, 39, 39);
+$blue: #0075b7;
+$green: #447e36;
+
+//Fonts
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: "Times new Roman", Times, serif;
+
+//Mixins
+
+@mixin redButton {
+  width: 100px;
+  height: auto;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  color: $white;
+  background-color: $red;
+  box-shadow: 5px 5px 20px $red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@mixin whiteButton {
+  width: 100px;
+  height: auto;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 5px 5px 20px $white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@mixin greenButton {
+  @include whiteButton();
+  background-color: $green;
+  box-shadow: 5px 5px 20px $green;
+  color: $white;
+}

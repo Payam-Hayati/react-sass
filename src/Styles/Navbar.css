@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  line-height: 45px;
+  background-color: #262626;
+}
+.navbar a {
+  color: rgb(227, 230, 232);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+.navbar a:hover {
+  color: rgb(208, 39, 39);
+}/*# sourceMappingURL=Navbar.css.map */

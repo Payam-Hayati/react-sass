@@ -1,0 +1,46 @@
+.home {
+  background-color: #0075b7;
+  width: full;
+  height: 400px;
+  color: rgb(227, 230, 232);
+  padding: 10px;
+  font-family: "Times new Roman", Times, serif;
+}
+.home .btn-white {
+  width: 100px;
+  height: auto;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 5px 5px 20px rgb(227, 230, 232);
+  font-weight: bold;
+  cursor: pointer;
+}
+.home .btn-green {
+  width: 100px;
+  height: auto;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 5px 5px 20px rgb(227, 230, 232);
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #447e36;
+  box-shadow: 5px 5px 20px #447e36;
+  color: rgb(227, 230, 232);
+}
+.home .btn-red {
+  width: 100px;
+  height: auto;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  color: rgb(227, 230, 232);
+  background-color: rgb(208, 39, 39);
+  box-shadow: 5px 5px 20px rgb(208, 39, 39);
+  font-weight: bold;
+  cursor: pointer;
+}/*# sourceMappingURL=Home.css.map */
